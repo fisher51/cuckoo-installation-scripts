@@ -1,6 +1,8 @@
 # cuckoo-installation-scripts
 This is PoC in it's early stage. Tested on Ubuntu 20.04.3 inside virtualbox with windows 7 ultimate as sandbox machine for cuckoo(inside virtualbox installed in guest)
 
+#### This setup configured to be runned from /tmp/cuckooinstall directory with step1.sh, step2.sh and win7ultimate.iso inside. 
+
 ## Pre-requirments:
 - Both scripts and ISO image should be located at the same directory
 - chmod 750 step1.sh (for step2.sh it will be applied automatically)
